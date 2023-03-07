@@ -6,10 +6,10 @@ function Home() {
     <>
       <div class="container" id="about">
         <div class="row heroContent">
-          <div class="col-sm-12 col-lg-3">
+          <div class="col-sm-12 col-lg-4">
             <img id="itsMe" src={require('../../img/me.jpg')} alt="" />
           </div>
-          <div class="col-sm-12 col-lg-9">
+          <div class="col-sm-12 col-lg-8">
             <h1 class="display-4">👋 Hi, I'm David.</h1>
             <p class="lead">
               I'm a <span class="not">professional</span> web developer based in
@@ -18,9 +18,10 @@ function Home() {
               miniatures and play music.
             </p>
             <p class="follow">
-              You can follow me on <a href="">Github</a> and{' '}
-              <a href="">LinkedIn</a>. Send me and <a href="">Email</a> or
-              download my <a href="">CV</a>.
+              You can follow me on{' '}
+              <a href="https://github.com/davidklmn">Github</a> and{' '}
+              <a href="https://uk.linkedin.com/">LinkedIn</a>. Send me and{' '}
+              <a href="">Email</a> or download my <a href="">CV</a>.
             </p>
           </div>
         </div>
