@@ -11,7 +11,7 @@ function Header() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container id="navBar">
-          <Navbar.Brand href="/">KLMN</Navbar.Brand>
+          <Navbar.Brand href="/">KLMN.</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink
               to="/"
