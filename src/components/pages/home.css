@@ -1,0 +1,12 @@
+#hero {
+  padding-top: 2rem;
+}
+
+#heroStack {
+  width: 100%;
+  height: 100%;
+}
+
+.heroCard {
+  background-color: red;
+}
