@@ -1,13 +1,14 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div>
-        <p>Hello GitHub Pages!</p>
-        {/* <Header></Header> */}
-        {/* <Routes></Routes> */}
+        <Header></Header>
+        <Wrapper></Wrapper>
       </div>
     </Router>
   );
